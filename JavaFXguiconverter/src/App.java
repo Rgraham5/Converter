@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 
 public class App extends Application {
 
-	private final int WIDTH = 600, HEIGHT = 200;
+	private final int WIDTH = 475, HEIGHT = 175;
 	private WeightConverter weight;
 	
 	public void start(Stage stage) {

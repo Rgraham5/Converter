@@ -45,15 +45,14 @@ public class WeightConverter extends ConverterPane {
 		case "kg":
 			result = value * 1000;
 			break;
-		case "oz":
-		//Rounded to nearest tenth//
-			result = value * 28.3;
-			break;
 		case "lb":
-		 //Rounded to nearest tenth//
 			result = value * 453.6;
 			break;
-				
+            //Rounded to nearest tenth//
+		case "oz":
+			result = value * 28.3;
+			break;
+            //Rounded to nearest tenth//
 		default:
 			textOut.setText("No such unit of measurement exists for Weight");
 		}
